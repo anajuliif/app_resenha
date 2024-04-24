@@ -8,6 +8,8 @@ export const styles = StyleSheet.create({
 
   areaBackImg: {
     flex: 1,
+    alignItems:"center",
+    justifyContent:"center"
   },
 
   cabecalho: {
@@ -34,8 +36,8 @@ export const styles = StyleSheet.create({
     borderWidth: "1",
     height: 40,
     width: 250,
-    backgroundColor: "#E0FFFF",
-    borderColor: "#E0FFFF",
+    backgroundColor: "white",
+    borderColor: "#7491BD",
     margin: 15,
     textAlign: "center",
     borderRadius: 25,
@@ -48,10 +50,11 @@ export const styles = StyleSheet.create({
     height: 50,
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 3,
     backgroundColor: "#7491BD",
     borderRadius: 25,
-    marginTop: 10,
+    marginTop: 30,
+    marginBottom: 30,
+    alignSelf: 'center',
   },
 
   BtnCds: {
@@ -84,6 +87,7 @@ export const styles = StyleSheet.create({
     width: 160,
     marginBottom: 15,
   },
+  
   estilo: {
     width: 90,
     height: 80,
@@ -95,10 +99,11 @@ export const styles = StyleSheet.create({
   bemvindo: {
     fontSize: 50,
     fontWeight: "bold",
-    marginBottom: "5%",
-    marginBottom: 40,
+    marginBottom: 50,
+    marginTop: 50,
     color: 'white',
     fontFamily: 'cursive',
+    textAlign: 'center',
   },
 
   InputReview: {
@@ -133,10 +138,65 @@ export const styles = StyleSheet.create({
    descricao: {
     fontSize: 25,
     fontWeight: "bold",
-    marginBottom: "5%",
-    marginBottom: 40,
+    marginTop: 20,
+    marginBottom: 50,
     color: 'white',
     textAlign: 'center',
    },
+
+   sobrenos: {
+    height: 30,
+    width: 40
+   },
+
+   caixa: {
+    backgroundColor: "#B0C1DB",
+    width: 370,
+    height: 720,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 25,
+    alignSelf: 'center',
+  },
+
+  caixa2: {
+    backgroundColor: "#B0C1DB",
+    width: 370,
+    height: 720,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    alignItems: 'center',
+    borderRadius: 25,
+    marginTop: 40,
+  },
+
+  livrao: {
+  marginTop: 60,
+   height: 200,
+   width: 200,
+   marginBottom: 25,
+   alignSelf: 'center',
+  },
+
+  livrao2: {
+    marginTop: -100,
+    marginBottom: 25,
+    alignSelf: 'center',
+    height: 200,
+    width: 200,
+  },
+
+  text: {
+    marginTop: 50,
+    fontSize: 35,
+    textAlign: 'center',
+  },
+
+  grupo: {
+   marginTop: 100,
+   height: 200,
+   width: 200,
+   alignSelf: 'center',
+  },
 
 });
