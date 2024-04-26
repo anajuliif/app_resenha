@@ -29,10 +29,18 @@ export default function Home() {
             </ImageBackground>
             <View style={{backgroundColor: "white", padding: 15}}>
               <ImgComponent style={styles.grupo} imagem={require("../image/grupo.png")} />
-              <Text style={styles.text}>Nós somos uma equipe de estudantes do SENAI Sumaré-SP, 
+              <Text style={styles.sobre}>Sobre nós: </Text>
+              <Text style={styles.sobre2}>Nós somos uma equipe de estudantes do SENAI Sumaré-SP, 
               e desenvolvemos um aplicativo do zero para celulares, onde o usuário pode fazer o login, 
               cadastrar-se, fazer posts das suas resenhas e deletá-las quando logados no aplicativo. Este também 
-              poderá ler as resenhas de outros usários, e avaliá-las. Aproveite o site!</Text>
+              poderá ler as resenhas de outros usários, e avaliá-las. Aproveite o site! </Text>
+
+              <ImgComponent style={styles.contato} imagem={require("../image/contato.png")} />
+              <Text style={styles.ctt}>Contato: </Text>
+              <Text style={styles.ctt2}>E-mail: BooksReview@gmail.com</Text>
+              <Text style={styles.ctt3}>Instagram: Books_Reviewofc</Text>
+              <Text style={styles.ctt4}>Whatsapp: (xx)xxxxx-xxxx</Text>
+
             </View>
             </View>
           </ScrollView>

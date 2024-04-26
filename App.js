@@ -7,15 +7,15 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 
 const Drawer = createDrawerNavigator();
 
-const Stack = createNativeStackNavigator();
-
 export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home" screenOptions={{
         drawerActiveTintColor: 'white', drawerActiveBackgroundColor: '#B0C1DB'
       }}>
-        <Drawer.Screen name="Home" component={Home} />
+        <Drawer.Screen name="Home" component={Home} options={{
+          headerStyle: { backgroundColor: '#E6E6FA' }
+        }} />
         <Drawer.Screen name="ReviewEdit" component={ReviewEdit} />
         <Drawer.Screen name="Login" component={Login} />
         <Drawer.Screen name="Cadastro" component={Cadastro} />

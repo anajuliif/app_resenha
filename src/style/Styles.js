@@ -12,13 +12,6 @@ export const styles = StyleSheet.create({
     justifyContent:"center"
   },
 
-  cabecalho: {
-    width: "100%",
-    height: 60,
-    color: "black",
-    opacity: "60%",
-  },
-
   Login: {
     fontSize: 30,
     fontWeight: "bold",
@@ -30,6 +23,7 @@ export const styles = StyleSheet.create({
     height: 60,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#E6E6FA',
   },
 
   InputName: {
@@ -184,17 +178,30 @@ export const styles = StyleSheet.create({
     width: 200,
   },
 
-  text: {
+  sobre: {
     marginTop: 50,
-    fontSize: 35,
-    textAlign: 'center',
+    fontSize: 30,
+    textAlign: 'left',
+  },
+
+  sobre2: {
+   fontSize: 20,
+   textAlign: 'left',
+   marginTop: 15,
   },
 
   grupo: {
-   marginTop: 100,
+   marginTop: 30,
    height: 200,
    width: 200,
    alignSelf: 'center',
   },
+
+  contato: {
+    marginTop: 40,
+    height: 200,
+    width: 200,
+    alignSelf: 'center',
+   },
 
 });
