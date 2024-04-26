@@ -3,19 +3,21 @@ import ReviewEdit from "./src/pages/Edit";
 import Login from "./src/pages/Login";
 import Cadastro from "./src/pages/Cadastro";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createDrawerNavigator } from "@react-navigation/drawer";
 
-const Stack = createNativeStackNavigator();
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="ReviewEdit" component={ReviewEdit} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Cadastro" component={Cadastro} />
-      </Stack.Navigator>
+      <Drawer.Navigator initialRouteName="Home" screenOptions={{
+        drawerActiveTintColor: 'white', drawerActiveBackgroundColor: '#B0C1DB'
+      }}>
+        <Drawer.Screen name="Home" component={Home} />
+        <Drawer.Screen name="ReviewEdit" component={ReviewEdit} />
+        <Drawer.Screen name="Login" component={Login} />
+        <Drawer.Screen name="Cadastro" component={Cadastro} />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }

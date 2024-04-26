@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
   },
 
   InputName: {
-    borderWidth: "1",
+    borderWidth: 1,
     height: 40,
     width: 250,
     backgroundColor: "white",
@@ -72,7 +72,7 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: "5%",
     marginBottom: 5,
-    borderWidth: "1",
+    borderWidth: 1,
     height: 60,
     width: 300,
     border: "solid",
@@ -102,12 +102,11 @@ export const styles = StyleSheet.create({
     marginBottom: 50,
     marginTop: 50,
     color: 'white',
-    fontFamily: 'cursive',
     textAlign: 'center',
   },
 
   InputReview: {
-    borderWidth: "1",
+    borderWidth: 1,
     height: 300,
     width: 350,
     backgroundColor: "lightblue",
@@ -121,7 +120,7 @@ export const styles = StyleSheet.create({
 
   fundo: {
     width: "100%",
-    height: "100%",
+    height: 760,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -163,11 +162,10 @@ export const styles = StyleSheet.create({
     backgroundColor: "#B0C1DB",
     width: 370,
     height: 720,
-    justifyContent: 'center',
-    alignSelf: 'center',
-    alignItems: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     borderRadius: 25,
-    marginTop: 40,
+    alignSelf: 'center',
   },
 
   livrao: {
